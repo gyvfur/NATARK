@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>NATARK: NATURE AND PARK</title>
+	 
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="style.css" >
+	 <script src="https://kit.fontawesome.com/43ef32a6ce.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+
+<body a link="#004D40" vlink="#004D40">
+     
+	 
+     <nav> 
+	 
+	     <input type="checkbox" id="check">
+		 <label for="check" class="checkbtn">
+		     <i class=" fas fa-bars"></i>
+		 </label>
+		 
+             
+			 <div id="natarkimage"><a href="index.html"><img src="Website Content/Images/finallogocrop.JPG"></a></div>
+		    
+		 
+		     <!-- <label class="logo"><a href="#">NATARK</label> -->
+			 
+			 
+		 
+		 <ul>
+		     
+			 
+			 <li><i class="fas fa-search"></i></li>
+		 
+		     <li><a class="active" href="index.html">Home</a></li>
+		     <li>
+			     <a href="locations.html">Locations</a>
+				 <ul>
+				     <li><a href="https://www.google.co.uk/maps/place/Scotland/@57.6677015,-9.1705585,6z/data=!3m1!4b1!4m5!3m4!1s0x4861e2c403f2a19f:0xe7c1fad809c30714!8m2!3d56.4906712!4d-4.2026458" target="_blank">Scotland</a></li>
+					 <li><a href="https://www.google.co.uk/maps/place/England/@52.8202929,-4.5753755,7z/data=!3m1!4b1!4m5!3m4!1s0x47d0a98a6c1ed5df:0xf4e19525332d8ea8!8m2!3d52.3555177!4d-1.1743197" target="_blank">England</a></li>
+					 <li><a href="https://www.google.co.uk/maps/place/Wales/@52.4000311,-5.2807961,8z/data=!3m1!4b1!4m5!3m4!1s0x486434b66c1c0fed:0x1ebb71bc8aa5e8a2!8m2!3d52.1306607!4d-3.7837117" target="_blank">Wales</a></li>
+				 </ul>
+			 
+			 </li>
+			 
+			 <li><a href="#">About</a></li>
+			 <li><a href="#">Contact</a></li>
+			 <li><a href="loginandregister.html">Log-In / Register</a></li>
+		</ul>
+		
+	 
+	 </nav>
+	 
+	 <content>
+	    
+         <div class="logoinslide">
+		 
+		     <img src="Website Content/Images/Logo.JPG">
+	     
+		 </div>
+		 
+         <div class="about">
+		 
+		     <br>
+			 <h1>ABOUT</h1>
+			 <br>
+			 <br>
+			 <p>
+			 Hello, Welcome! In here we provide young adults age 18 to 25 a helpful location navigation and quality images of places like parks, and an open fields to spend time away from screens. <br> Our aim is to encourage young adults to connect more with our nature. 
+		     </p>
+			 <br>
+		 
+		 </div>
+	 
+	 </content>
+	 
+	 <footer>
+	 
+	     <div class="footercontent">
+		     
+			 <div class="footer">
+	
+	             <h3> Our Social Media <h3>
+				 
+				 <div class="socialmedia">
+				 
+				     <a href="#" target="_blank"><img src="file:///C:/Users/S0093769/OneDrive%20-%20Trafford%20College%20Group/Cheadle%20College%20Year13%20Level%203/Chris%20Perry/Unit%208%20&%2021%20Folder/Greenisanewblack%20Website/Website%20Content/Images/facebooklogophotopshop.jpg"></a>
+			         <a href="#" target="_blank"><img src="file:///C:/Users/S0093769/OneDrive%20-%20Trafford%20College%20Group/Cheadle%20College%20Year13%20Level%203/Chris%20Perry/Unit%208%20&%2021%20Folder/Greenisanewblack%20Website/Website%20Content/Images/instagramlogophotoshop.jpg"></a>
+				     <a href="https://www.facebook.com/HubbubUK/" target="_blank"><img src="file:///C:/Users/S0093769/OneDrive%20-%20Trafford%20College%20Group/Cheadle%20College%20Year13%20Level%203/Chris%20Perry/Unit%208%20&%2021%20Folder/Greenisanewblack%20Website/Website%20Content/Images/linkedinlogophotoshop.jpg"></a>
+				     <a href="https://twitter.com/hubbubUK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="file:///C:/Users/S0093769/OneDrive%20-%20Trafford%20College%20Group/Cheadle%20College%20Year13%20Level%203/Chris%20Perry/Unit%208%20&%2021%20Folder/Greenisanewblack%20Website/Website%20Content/Images/Twitterlogophotoshop.jpg"></a>
+				 
+				 </div>
+				 
+				     <div class="footerlogo">
+			             <img src="Website Content/Images/finallogocrop.JPG">
+			         </div>
+			     
+			 
+			 
+			 </div>
+		 
+		     
+		
+			 
+			 
+		 </div>
+	 
+		 
+	 
+	 </footer>
+
+</body>
+
+
+
+</body>
+
+
+</html>

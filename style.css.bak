@@ -1,0 +1,290 @@
+                                      /* Home StyleSheet */   
+
+*{padding: 0; margin: 0; text-decoration: none; box-sizing: border-box; }
+
+/* Body */
+body{ font-family: monstserrat; }
+
+
+/* Navigation */
+nav{ background: #ffffff; height: 150px; width: 100%; }
+
+
+/* Navigation Bottom Border */
+nav {border-bottom: solid; border-top:solid; border-color:black; border-width: 2px;  }
+
+
+/* Logo */
+
+/*label.logo{ color: #004D40; font-size: 35px; line-height: 80px; padding: 0 100px; font-weight: bold;  }*/
+
+#natarkimage img{ width: 325px; height: 150px; padding-left: 0px; padding-top: 10px; margin: -10px; margin-left: 0px; margin-bottom:-65px; padding-bottom: 0px;  }
+
+
+/* Search Bar*/
+
+
+
+/* Navigation nav ul */
+nav ul{ float: right; margin-right: 100px; }
+nav ul li{ display: inline-block; line-height: 80px; margin: 0 25px; padding-bottom: 20px; float:top;  }
+
+
+/* Navigation nav ul li a */
+nav ul li a{ color: black; font-size: 20px; padding: 7px 13px; border-radius: 15px; font-weight: bold; text-transform: diffult;   }
+a.active,a:hover{background: #E2DEDE; transition: .5s; }
+
+
+/* Check Button */
+.checkbtn{ font-size:50px; color:black; float: right; line-height: 80px; margin-right: 40px; margin-top: 30px; cursor: pointer; display: none; }
+
+
+/* Location Navigation ul ul  */
+
+nav ul ul{position: absolute; top: 90px; opacity:0; visibility: hidden; transition: top .3s; margin-top: 80px; background-color: #004D40; padding-right: 50px; padding-bottom: 35px;  }
+nav ul li:hover > ul{ top: 70px; opacity: 1; visibility: visible; list-style-type: none; }
+
+nav ul ul li{ position: relative; margin: 0px; width: 150px; float: none; display: list-item; border-bottom: 1px solid rgb(0,0,0,0,3); margin-top: 40px;  }
+
+nav ul ul li a{ line-height: 0px; margin: 50px; background-color:#676767; text-align: center;  }
+
+/* Check */
+#check{ display: none; }
+
+/* Media */
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn{
+		display: block;
+	}
+	 ul{
+		position: fixed; 
+		width: 100%;
+		height: 100vh;
+		background: #004D40; 
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s; 
+		margin-top: 70px; 
+	}
+	nav ul li{
+		display: block;
+		
+		/* "Another option for navigation list" margin: 50px 0;
+		line-height: 30px;*/
+	}
+	nav ul li a{
+		font-size: 28px;
+	}
+	a:hover,a.active{
+		background:none;
+		color: #E2DEDE; 
+	}
+	#check:checked ~ ul{
+		left: 0;
+	}
+	
+	                 /* Content Stylesheet */
+
+/* Content Images */
+
+
+
+
+/* Logo Slide Image */
+
+
+/* About Content */
+
+.about{ background-color: #10B397; }
+
+
+
+                                              /* Location Stylesheet */
+
+/* Heading */
+
+content ul li a { font-size: 100px;   }
+
+
+
+
+
+                                              /* About Stylesheet */
+
+											  
+											  
+											  
+											  
+											  
+											  
+											  
+											  
+											  /* Contact Stylesheet */
+											  
+											  
+											  
+											  /* Footer */
+											  
+											  
+											  
+											  
+											  
+											  
+											  /* Log-In & Register Stylesheet */
+
+/* Mobile Phone Register*/
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px; 
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #004D40;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #004D40;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+}
+
+/* Full Desktop Screen Register */
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #004D40;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #004D40;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+#register { height: 100px; }
+
+
+/* Content Desktop Screen*/
+
+/* About */
+
+.about{ background-color: #10B397; }
+
+.about h1 { float: center; text-align: center; margin-top: 50px; font-size: 40px; }
+
+.about p{ text-align: center; font-size:19px; margin-bottom: 50px; }
+
+
+
+
+/* Footer Desktop Screen */
+
+.footercontent{ background-color: #004D40; height:450px; }
+
+.footer img{ height: 100px; margin: 70px;  }
+
+.footercontent h3{ font-size: 30px; color: #FFFFFF; float: right; margin-right: 515px; margin-top: 25px; }
+
+.footercontent ul li{ float: right; }
+
+/* Footer Social Media */
+
+.socialmedia a{ float: top; }
+.socialmedia img{ float: right; height: 35px; width: 35px; margin: 10px; }
+.footerlogo img{ width: 300px; height: 150px; float: right; margin-right: -40px;  }
