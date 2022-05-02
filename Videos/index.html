@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>NATARK: NATURE AND PARK</title>
+	 <link rel="icon" type="image/x-icon" href="Website Content/Images/finallogocrop.ico">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="style.css" >
+	 <script src="https://kit.fontawesome.com/43ef32a6ce.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+
+<body>
+    <script type="text/javascript" src="script.js"></script>
+<body a link="#004D40" vlink="#004D40">
+     
+	 
+     <nav> 
+	 
+	     <input type="checkbox" id="check">
+		 <label for="check" class="checkbtn">
+		     <i class=" fas fa-bars"></i>
+		 </label>
+		 
+             
+		 <div id="natarkimage"><a href="index.html"><img src="Website Content/Images/logofinalgreen.JPG" alt="halve house and tree logo"></a></div>
+		    
+		 
+		     <!-- <label class="logo"><a href="#">NATARK</label> --> 
+			 
+			 
+		 
+		 <ul>
+		     
+			 
+			 <li><i class="fas fa-search"></i></li>
+		 
+		     <li><a class="active" href="index.html">Home</a></li>
+		     <li>
+			     <a href="locations.html">Locations</a>
+				 <ul>
+				     <li><a href="https://www.google.co.uk/maps/place/Scotland/@57.6677015,-9.1705585,6z/data=!3m1!4b1!4m5!3m4!1s0x4861e2c403f2a19f:0xe7c1fad809c30714!8m2!3d56.4906712!4d-4.2026458" target="_blank">Scotland</a></li>
+					 <li><a href="cheadlehulme.html">England</a></li>
+					 <li><a href="https://www.google.co.uk/maps/place/Wales/@52.4000311,-5.2807961,8z/data=!3m1!4b1!4m5!3m4!1s0x486434b66c1c0fed:0x1ebb71bc8aa5e8a2!8m2!3d52.1306607!4d-3.7837117">Wales</a></li>
+				 </ul>
+			 
+			 </li>
+			 
+			 <li><a href="#about">About</a></li>
+			 <li><a href="contactform.html">Contact</a></li>
+			 <li><a href="loginandregister.html">Log-In / Register</a></li>
+		</ul>
+		
+	 
+	 </nav>
+
+	
+	 <content>		
+		 
+		 
+								 
+			 <br>
+			 <br>
+			 <br>
+			 <br>
+			 <br>
+			 <br>
+			 <br>
+			 <br>
+		 <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+		 
+		 <!-- Slideshow Container -->
+		 
+
+             <div class="container">
+                <div class="mySlides">
+                   <div class="numbertext">1 / 6</div>
+                   <img src="Website Content/Images/Cheadle Hulme/Bruntwood Park/Oddfellows On The Park.jpg" alt="Oddfellows On The Park Hotel">
+             </div>
+
+             <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="Website Content/Images/Cheadle Hulme/Bruntwood Park/The Vinery.jpg" alt="Vinary building" >
+             </div>
+
+             <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="Website Content/Images/Cheadle Hulme/South Park/southparkgroveln.jpg" alt="Park front gate sorrounded with trees" >
+             </div>
+    
+             <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="Website Content/Images/Bruntwood Park/Bruntwood Open Field.jpg" alt="Bruntwood Open Field with a beautiful sunset" >
+             </div>
+
+             <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="Website Content/Images/Bruntwood Park/Bruntwood Pond.jpg" alt="Bruntwood pond with many ducks">
+             </div>
+    
+             <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="Website Content/Images/Bruntwood Park/Bruntwood BMX Tracks.jpg" alt="Bruntwood BMX Tracks" >
+             </div>
+    
+             <a class="prev" onclick="plusSlides(-1)">❮</a>
+             <a class="next" onclick="plusSlides(1)">❯</a>
+
+             <div class="caption-container">
+                <p id="caption"></p>
+             </div>
+
+  <div class="row"  id="about">
+    <div class="column">
+      <img class="demo cursor" src="Website Content/Images/Cheadle Hulme/Bruntwood Park/Oddfellows On The Park.jpg" style="width:100%" onclick="currentSlide(1)" alt="Bruntwood Park: Oddfellows On The Park, Victoria Hotel">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Website Content/Images/Cheadle Hulme/Bruntwood Park/The Vinery.jpg" style="width:100%" onclick="currentSlide(2)" alt="Bruntwood Park: The Vinery">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Website Content/Images/Cheadle Hulme/South Park/southparkgroveln.jpg" style="width:100%" onclick="currentSlide(3)" alt="South Park: Entrance">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Website Content/Images/Bruntwood Park/Bruntwood Open Field.jpg" style="width:100%" onclick="currentSlide(4)" alt="Bruntwood Park: Open Field">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Website Content/Images/Bruntwood Park/Bruntwood Pond.jpg" style="width:100%" onclick="currentSlide(5)" alt="Bruntwood Park: Pond">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="Website Content/Images/Bruntwood Park/Bruntwood BMX Tracks.jpg" style="width:100%" onclick="currentSlide(6)" alt="Bruntwood Park: BMX Tracks">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+		 <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+		 
+		 
+         <div class="about">
+		    
+			<div class="what-hub" style="padding-left: 100px; padding-right: 100px;">
+		     <br>
+			    <h1>WHAT YOU SHOULD KNOW ABOUT US?</h1>
+			 <br>
+			 <br>
+			    <p>
+			 Hello, Welcome! In here we provide young adults age 18 to 25 a helpful location navigation and quality images and videos of places like parks, and an open fields to spend time away from screens. Our aim is to encourage young adults to connect more with our nature.
+				 
+			 <br>
+			 <br>
+			  The website recommend applications that are going to be very useful. So, I would highly reccoment to try those each applications to what ever is suitable for you to have or you could have each of the applications at the same  time. 
+			 
+			  <br>
+			   
+		        </p>
+			    <h1>HUBBUB</h1>
+			 <br>
+			 <br>
+			 <br>
+			    <p>This website was developed because of HUBBUB. The challenge was to develop a website that inspire young adults to connect with nature. This website will be focus on our local area and the future plan was to make it available all over the country were visitors can post and give details about their local green places, so other users can gather informations. If you would like to know more about HUBBUB <a href="https://www.hubbub.org.uk/what-we-do" target="_blank" style="color: orangered" > CLICK HERE</a>. </p>
+			 <br>
+			 <br>
+			 <br>
+		    </div>
+			
+		 </div>
+	     
+	     <div class="walktoearn">
+			  
+			 <br>
+			 <br>
+		 
+		      <h1> WALK TO EARN </h1>
+			 
+			 <div class="sweatcoin">
+				 
+				 <br>
+				 <br>
+			 
+				 <h2>Sweatcoin</h2>
+				 
+				  <br>
+				  <br>
+				 
+				 <br>
+
+				 <p>Would you like to earn while walking? Sweatcoin is an applications that counts every steps you do. This applications is great for walking to school or college, work, and walking to the park. This applications helps to motivates users to go outside, as outside steps is the only steps that can be converted to sweatcoin and not indoors. Sweatcoins have a features that makes user to walk and earn more coin by buying subscription plan. But most of all sweatcoin is free to use and can earn 5 sweatcoin per day. It is less than a subscription plan but in a years time of walking and meeting the goal users can claim their rewards. <br><br> Sweatcoin have two different subscrition plan, the trouble maker and the premium. Troublemaker subcrition have three different ways of paying, montly, 6 Months, and Yearly. Montly price: £0.99, 6 Months price: £5.49, Yearly price: £9.99. For the premium on the other hand, there is two type of paying, Monthly, and Yearly. Monthly price: £4.99, Yearly price: £24.99. The price of lifecoin subscription is calculated annually so it will be £2.91 a month and billed £34.99 a year. You can earn 5 sweatcoin a day from their free subscription, 50 sweatcoin a day from troublemaker, and unlimited sweatcoin earning from premium. Troublemaker, and Primium earning is double so if you have 1,000 steps, which is equivalent to 1 sweatcoin. 1,000 steps &divide; 1,000 = 1 sweatcoin x double = 2 sweatcoin.   
+				 <br>
+				 <br>
+					 <a href="https://sweatco.in/" target="_blank">DOWNLOAD THE APP NOW AND START WALKING!</a>
+				 
+				 </p>
+			 
+			 </div>		
+			 
+			 <br>
+			 
+			 <div class="lifecoin">
+				 
+				 <br>
+			 
+				 <h2>Lifecoin</h2>
+				 
+				 <br>
+				 <br>
+				 <br>
+				 
+				 <p>Lifecoin is similar as sweatcoin. Users can claim rewards and the good things about this is users can download this lifecoin and sweatcoin at the same time and count your steps at the same day. This is similar as the other application aswell. Their is a subscription plan that enable user to earn more coin. However, In my prespective, I will prepare to stay this one as free, as the price is quiet expensive, and if you are financially stable it is great to support the developers and it also motivates you to go outside because you have something to lose, that keeps you going.<br><br>The price of lifecoin subscription is calculated annually so it will be £2.91 a month and billed £34.99 a year.  
+				 <br>
+				 <br>
+					 <a href="https://lifecoin.ai/" target="_blank">DOWNLOAD THE APP NOW AND START WALKING!</a>
+				 </p>
+				 
+				 <br>
+				 <br>
+			 
+			 </div>
+			 
+			 <br>
+			 
+			 <div class="otherapplication">
+			      
+				 <h1>OTHER APPLICATIONS THAT YOU CAN CLAIM REWARDS AND GET PAY</h1>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+			    <p><a href="https://origympersonaltrainercourses.co.uk/blog/apps-paying-to-walk" target="_blank">CLICK TO FIND MORE APPLICATION THAT PAYS YOU TO WALK THAT IS SUITABLE FOR YOU</a></p>
+				 
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 
+				 <h1>KNOW YOUR PERSONALITY</h1>
+				 <br>
+				 <br>
+				 <p>Knowing your personality is very important to know what is suitable for you. People have different personality an introvert, extrovert, and ambivert. An introverted person limits people around them and enjoy being alone to regain energy. An extrovert like to be around people to regain their energy. An ambivert is both introvert and extrovert. You probably wondering what is the relation of connecting to nature and your personality. This is to know if you like to be in a crowd of people and connecting with nature or you are more of a like of, I need less people so I can relax in peace. There are parks that can be very crowded in summer and even in winter and there are parks also that is so big that you less likely to even see people walking around. 
+				 <br>
+				 <br>
+				 Would you like to know your personality? <a href="https://www.16personalities.com/free-personality-test" target="_blank">Click Me</a> or <a href="https://my-personality-test.com/?gclid=EAIaIQobChMImt7kjMCV9gIVnYBQBh1qbANbEAAYASAAEgLCYfD_BwE" target="_blank">Me</a>.	 
+			
+				 </p>
+				 
+				 <br>
+				 <br>
+				 
+				 <h1>Facts About Connecting With Nature</h1>
+				 <br>
+				 <br>
+				 
+				 <p>"Research shows that people who are more connected with nature are usually happier in life and more likely to report feeling their lives are worthwhile. Nature can generate a multitude of positive emotions, such as calmness, joy, creativity and can facilitate concentration." To know more about what are the benefits of nature to our mental health <a href="https://www.mentalhealth.org.uk/campaigns/nature/nature-research#:~:text=Research%20shows%20that%20people%20who,creativity%20and%20can%20facilitate%20concentration." target=_blank>Click Here</a>.</p>
+			     
+				 <br>
+				 <br>
+			 </div>
+			 
+			 <br>
+			 <br>
+			 <br>
+		 
+	    </div> 
+		 
+		<div class="videogallery">
+		    
+		   <h1 style="text-align: center; ">VIDEO GALLERY</h1>
+			<br>
+			<br>
+            
+			<div class="videos">
+					 
+				<div class="vid-gallery">
+				   <video width="320" height="240" controls>
+					   <source src="Website Content/Videos/hesketh park benches.mp4" type="video/mp4">
+				   </video>
+				   <div class="description" style="font-size: 24px; font-weight: bold; "><a href="https://goo.gl/maps/xwvhqaJ9dNtBywpBA" target="_blank">Hesketh Park Benches</a></div>
+				</div>
+				
+				<div class="vid-gallery">
+				   <video width="auto" height="auto" controls>
+					   <source src="Website Content/Videos/bruntwood park pond.mp4" type="video/mp4">
+				   </video>
+				   <div class="description" style="font-size: 24px; font-weight: bold; "><a href="https://goo.gl/maps/pgY6dW23DnERGJce7" target="_blank">Bruntwood Park Pond</a></div>
+				</div>
+
+				<div class="vid-gallery">
+				   <video width="auto" height="auto" controls>
+					   <source src="Website Content/Videos/bruntwood park field sunset.mp4" type="video/mp4">
+				   </video>
+				   <div class="description" style="font-size: 24px; font-weight: bold; "><a href="https://goo.gl/maps/qhUnduepTXGWz4FPA" target="_blank">Bruntwood Park Fields</a></div>
+				</div>
+				
+				<div class="vid-gallery">
+				   <video width="auto" height="auto" controls>
+					   <source src="Website Content/Videos/bruntwood park bmx track.mp4" type="video/mp4">
+				   </video>
+				   <div class="description" style="font-size: 24px; font-weight: bold; "><a href="https://goo.gl/maps/uSzi2aaQCfgRxkCHA" target="_blank">Bruntwood Park BMX Tracks</a></div>
+				</div>
+				
+				<div class="vid-gallery">
+				   <video width="auto" height="auto" controls>
+					   <source src="Website Content/Videos/bruntwood park birds.mp4" type="video/mp4">
+				   </video>
+				   <div class="description" style="font-size: 24px; font-weight: bold; "><a href="https://goo.gl/maps/pgY6dW23DnERGJce7" target="_blank">Bruntwood Park Birds</a></div>
+				</div>
+				
+                    			
+			</div>
+			
+
+		</div>
+		
+	 </content>
+	 
+	 <footer>
+	 
+	     <div class="footercontent">
+		     
+			 <div class="footer">
+	             <div class="socialmediaheading"><h3> Our Social Media </h3></div>
+				 
+				 <div class="socialmedia">
+				 
+				     <a href="https://www.facebook.com/HubbubUK/" target="_blank"><img src="Website Content/Images/facebooklogophotopshop.jpg" alt="facebook logo/f letter"></a>
+			         <a href="https://www.instagram.com/accounts/login/?next=/eathubbub/" target="_blank"><img src="Website Content/Images/instagramlogophotoshop.jpg" alt="Instagram logo/camera image"></a>
+				     <a href="https://www.linkedin.com/company/hubbub-uk" target="_blank"><img src="Website Content/Images/linkedinlogophotoshop.jpg" alt="LinkIn logo"></a>
+				     <a href="https://twitter.com/hubbubUK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="Website Content/Images/Twitterlogophotoshop.jpg" alt="twitter logo/bird"></a>
+				 
+				 </div>
+				 
+				     <div class="footerlogo">
+			             <img src="Website Content/Images/finallogocrop.JPG" alt="halve tree and house logo NATARK">
+			         </div>
+			     
+			 
+			 
+			 </div>
+		 
+		     
+		
+			 
+			 
+		 </div>
+	 
+		 
+	 
+	 </footer>
+
+</body>
+
+
+
+</body>
+
+
+</html>
